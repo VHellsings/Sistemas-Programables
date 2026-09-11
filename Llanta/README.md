@@ -18,7 +18,7 @@ Enumera todos los componentes usados:
 * Dispositivo móvil con app desarrollada en MIT App Inventor
 
 ## Diagrama del circuito
-![Diagrama del circuito](Diagrama/Diagrama%20del%20%20Sistema%20de%20Control%20Remoto%20por%20Voz%20usando%20Arduino,%20WiFi%20y%20Reconocimiento%20de%20Voz.jpeg)
+![Diagrama del circuito](Diagrama/Diagrama%20del%20Sistema%20de%20Control%20Remoto%20por%20Voz%20usando%20Arduino,%20WiFi%20y%20Reconocimiento%20de%20Voz.jpeg)%20WiFi%20y%20Reconocimiento%20de%20Voz.jpeg)
 
 ## Código
 [Llanta.ino](Codigo/Llanta.ino)
