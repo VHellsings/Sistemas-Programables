@@ -21,8 +21,6 @@ Programar y simular en Arduino el control de dirección y velocidad de un motor 
 
 ## Diagrama del circuito
 
-## Diagrama del circuito
-
 ![Diagrama del circuito](Llanta/Diagrama/Diagrama del Sistema de Control Remoto por Voz usando Arduino, WiFi y Reconocimiento de Voz.jpeg)
 
 ## Código
