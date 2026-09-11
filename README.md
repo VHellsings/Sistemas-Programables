@@ -21,27 +21,27 @@ Programar y simular en Arduino el control de dirección y velocidad de un motor 
 
 ## Diagrama del circuito
 
-![Diagrama del circuito](Diagrama/Diagrama del  Sistema de Control Remoto por Voz usando Arduino, WiFi y Reconocimiento de Voz.jpg)
+![Diagrama del circuito](Llanta/Diagrama/Diagrama del Sistema de Control Remoto por Voz usando Arduino, WiFi y Reconocimiento de Voz.jpg)
 
 ## Código
 
-[Llanta.ino](Codigo/Llanta.ino)
+[Llanta.ino](Llanta/Codigo/Llanta.ino)
 
 ## Video del funcionamiento
 
-[Ver video en YouTube](Video/Video Llanta.md)
+[Ver video en YouTube](Llanta/Video/Video Llanta.md)
 
 ## Evidencias de armado
 
-![Evidencias de armado](Diagrama/Armado del Sistema de Control Remoto por Voz usando Arduino, WiFi y Reconocimiento de Voz.jpg)
+![Evidencias de armado](Llanta/Diagrama/Armado del Sistema de Control Remoto por Voz usando Arduino, WiFi y Reconocimiento de Voz.jpg)
 
 ## Terminal
 
-![Terminal](Terminal/Terminal.jpeg)
+![Terminal](Llanta/Terminal/Terminal.jpeg)
 
 ## Reporte
 
-Incluye: [Reporte.pdf](Reporte/Reporte.pdf)
+Incluye: [Reporte.pdf](Llanta/Reporte/Reporte.pdf)
 
 - Diagrama de conexión y explicación del circuito
 - Código comentado y su funcionamiento
@@ -53,7 +53,7 @@ El proyecto permitió reforzar el uso de comunicación WiFi/HTTP entre una app m
 
 ## Resultados
 
-Incluye: [Resultados.pdf](Resultados/Resultados.pdf)
+Incluye: [Resultados.pdf](Llanta/Resultados/Resultados.pdf)
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
 
