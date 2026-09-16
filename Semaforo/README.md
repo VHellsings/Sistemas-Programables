@@ -42,7 +42,7 @@ Modelar un sistema secuencial como una máquina de estados finitos (FSM) utiliza
 
 ## Video del funcionamiento
 
-[Ver video](Video/Video%20Semaforo.md)
+[Ver video](https://youtu.be/K3NXqwSUx-Y)
 
 ## Conclusiones
 
