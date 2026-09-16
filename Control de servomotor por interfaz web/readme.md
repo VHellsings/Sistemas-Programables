@@ -28,7 +28,7 @@ Implementar un servidor web embebido en el Arduino UNO R4 WiFi capaz de recibir 
 
 ## Video del funcionamiento
 
-[Ver video en YouTube](Video/Video.md)
+[Ver video en YouTube](https://www.youtube.com/shorts/q48nZOm9120)
 
 ## Evidencias de armado
 
