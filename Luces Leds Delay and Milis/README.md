@@ -26,7 +26,7 @@ Comprender la diferencia entre temporización bloqueante y no bloqueante en Ardu
 
 El mismo circuito se utiliza para ambas partes del proyecto:
 
-![Diagrama del circuito](Diagrama/Diagrama%20Leds.jpeg)
+![Diagrama del circuito](Diagrama/Diagrama%20Leds.png)
 
 ---
 
