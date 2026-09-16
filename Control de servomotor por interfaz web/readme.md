@@ -20,7 +20,7 @@ Implementar un servidor web embebido en el Arduino UNO R4 WiFi capaz de recibir 
 
 ## Diagrama del circuito
 
-![Diagrama del circuito](Diagrama/Diagrama%20Motor.jpeg)
+![Diagrama del circuito](Diagrama/Diagrama%20Motor.jpg)
 
 ## Código
 
