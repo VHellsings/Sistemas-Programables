@@ -35,6 +35,11 @@ El mismo circuito se utiliza para ambas partes del proyecto:
 ### Código
 [Led Delay.ino](Codigo/Led%20Delay.ino)
 
+### Diagrama / Montaje físico
+![Diagrama del circuito](Diagrama/Diagrama%20Leds.jpeg)
+
+<img src="Diagrama/LEDS%20Delay.jpeg" width="600">
+
 ### Reporte
 [LEDs_Reporte.pdf](Reporte/LEDs_Reporte.pdf)
 
@@ -50,6 +55,11 @@ El mismo circuito se utiliza para ambas partes del proyecto:
 
 ### Código
 [Led Milis.ino](Codigo/Led%20Milis.ino)
+
+### Diagrama / Terminal
+![Diagrama del circuito](Diagrama/Diagrama%20Leds.jpeg)
+
+<img src="Diagrama/LEds%20Milic.png" width="600">
 
 ### Reporte
 [Reporte_Parte2.pdf](Reporte/Reporte_Parte2.pdf)
