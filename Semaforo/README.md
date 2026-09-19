@@ -34,7 +34,7 @@ Modelar un sistema secuencial como una máquina de estados finitos (FSM) utiliza
 
 ## Reporte
 
-[Reporte_Semaforo.pdf](https://github.com/VHellsings/Sistemas-Programables/blob/main/Semaforo/Reporte/Reporte_Semaforo.pdf)
+[Reporte_Semaforo_v2.pdf](https://github.com/VHellsings/Sistemas-Programables/blob/main/Semaforo/Reporte/Reporte_Semaforo.pdf)
 
 ## Video del funcionamiento
 
