@@ -30,15 +30,11 @@ Modelar un sistema secuencial como una máquina de estados finitos (FSM) utiliza
 
 ## Código
 
-[Semaforo.ino](codigo/Semaforo.ino)
+[Semaforo.ino](https://github.com/VHellsings/Sistemas-Programables/blob/main/Semaforo/codigo/Semaforo.ino)
 
 ## Reporte
 
-[Reporte_Semaforo.pdf](Reporte/Reporte_Semaforo.pdf)
-
-## Resultados
-
-[Resultado_Semaforo.pdf](Resultados/Resultado_Semaforo.pdf)
+[Reporte_Semaforo.pdf](https://github.com/VHellsings/Sistemas-Programables/blob/main/Semaforo/Reporte/Reporte_Semaforo.pdf)
 
 ## Video del funcionamiento
 
