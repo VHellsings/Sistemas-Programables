@@ -1,14 +1,18 @@
 # Comunicación I2C entre 4 Arduinos
 
-Sistema de comunicación por bus I2C entre un Arduino maestro y tres Arduinos esclavos, que comparten las líneas SDA y SCL y se identifican con direcciones distintas (0x08, 0x09 y 0x0A), simulado en Tinkercad y armado también de forma física.
+Sistema de comunicación mediante el bus I2C entre un Arduino maestro y tres Arduinos esclavos. Los dispositivos comparten las líneas SDA y SCL y utilizan direcciones diferentes (0x08, 0x09 y 0x0A). El sistema fue simulado en Tinkercad y posteriormente armado de forma física.
 
 ## Descripción
 
-El maestro coordina tres esclavos por I2C: uno controla un LED, otro un servomotor, y otro lee un potenciómetro. Cada 500 ms el maestro pide el valor del potenciómetro, lo convierte a un ángulo (0°–180°) y lo envía al servo. Por el Monitor serie se puede escribir 1 o 0 para controlar el LED. El maestro reporta el estado de la comunicación y avisa si algún esclavo no responde.
+El Arduino maestro coordina la comunicación con tres esclavos: uno controla un LED, otro un servomotor y otro lee un potenciómetro. Cada 500 ms, el maestro solicita el valor del potenciómetro, lo convierte en un ángulo de 0° a 180° y lo envía al servo.
+
+Además, desde el Monitor serie se puede enviar 1 o 0 para encender o apagar el LED. El maestro también informa el estado de la comunicación y detecta cuando algún esclavo no responde.
 
 ## Objetivos de aprendizaje
 
-Comprender el funcionamiento del bus I2C mediante la comunicación entre un maestro y varios esclavos que comparten las mismas líneas de datos, aprendiendo a asignar direcciones distintas a cada dispositivo, a programar el envío y la recepción de datos con la librería Wire, y a detectar fallas de comunicación revisando el resultado de `endTransmission()` y `requestFrom()` en lugar de bloquear el programa.
+Comprender el funcionamiento del bus I2C mediante la comunicación entre un maestro y varios esclavos, utilizando direcciones diferentes para identificar cada dispositivo. También se practica el envío y recepción de datos mediante la librería `Wire` y la detección de errores con `endTransmission()` y `requestFrom()`.
+
+Además, se utiliza `millis()` en lugar de `delay()` para evitar bloquear el programa durante la comunicación.
 
 ## Herramientas y material utilizado
 
@@ -31,18 +35,15 @@ Comprender el funcionamiento del bus I2C mediante la comunicación entre un maes
 
 ## Código
 
-* [Maestro.ino](<Codigo/Maestro.ino>)
-* [Esclavo1(LED).ino](<Codigo/Esclavo1(LED).ino>)
-* [Esclavo2(servo).ino](<Codigo/Esclavo2(servo).ino>)
-* [Esclavo3(potenciómetro).ino](<Codigo/Esclavo3(potenciómetro).ino>)
 
 ## Reporte
 
-* [Reporte.pdf](<Reporte/Reporte.pdf>)
 
 ## Resultados
 
-Durante las pruebas, los tres esclavos respondieron correctamente a sus respectivas direcciones sin interferir entre sí: el LED cambió de estado al escribir 1 o 0 en el Monitor serie, el servomotor siguió de forma consistente los cambios del potenciómetro, y el maestro detectó y reportó correctamente cuando algún esclavo dejó de responder (NACK), sin bloquearse en ningún momento gracias al uso de `millis()` en lugar de `delay()`.
+Durante las pruebas, los tres esclavos respondieron correctamente a sus respectivas direcciones. El LED respondió a los valores 1 y 0 enviados desde el Monitor serie, el servomotor siguió los cambios del potenciómetro y el maestro detectó cuando algún esclavo dejó de responder.
+
+El uso de `millis()` permitió realizar estas tareas sin bloquear la ejecución del programa.
 
 ## Video del funcionamiento
 
@@ -50,4 +51,6 @@ Durante las pruebas, los tres esclavos respondieron correctamente a sus respecti
 
 ## Conclusiones
 
-El bus I2C permite comunicar varios dispositivos usando solo dos líneas (SDA y SCL) más tierra común; agregar un esclavo no requiere pines adicionales, solo una dirección diferente. Cada esclavo debe tener una dirección única, ya que si dos comparten la misma, ambos responden a la vez y los datos se corrompen. El maestro controla la comunicación completa: decide con quién habla, cuándo y si pide o manda datos, mientras el esclavo solo responde cuando se le llama. Revisar el resultado de `endTransmission()` permite detectar cuando un esclavo no contesta (NACK) en lugar de que el sistema se congele, y usar `millis()` en vez de `delay()` en el maestro permite atender el Monitor serie y consultar el potenciómetro sin bloquearse.
+El protocolo I2C permite comunicar varios dispositivos utilizando las líneas SDA y SCL, además de una tierra común. Cada esclavo debe tener una dirección única para evitar conflictos durante la comunicación.
+
+El maestro controla cuándo enviar o solicitar información, mientras que los esclavos responden cuando son llamados. La comprobación de `endTransmission()` permite detectar errores de comunicación, como un NACK, y el uso de `millis()` evita que el programa se bloquee mientras realiza otras tareas.
