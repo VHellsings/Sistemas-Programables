@@ -38,7 +38,7 @@ Además, se utiliza `millis()` en lugar de `delay()` para evitar bloquear el pro
 * [Maestro.ino](<Codigo/Maestro.ino>)
 * [Esclavo1(LED).ino](<Codigo/Esclavo1Led.ino>)
 * [Esclavo2(servo).ino](<Codigo/Esclavo2Servo.ino>)
-* [Esclavo3(potenciómetro).ino](<Codigo/Esclavo3Potenciometro.ino>)
+* [Esclavo3(potenciómetro).ino](<Codigo/Esclavo3Potonciometro.ino>)
 
 ## Reporte
 
