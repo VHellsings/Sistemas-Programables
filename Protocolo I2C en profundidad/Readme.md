@@ -32,26 +32,28 @@ Comprender el funcionamiento del bus I2C mediante la comunicación entre un maes
 
 ## Diagrama del circuito
 
-![Diagrama](Diagrama/Diagrama%20Comunicación%20I2C%20entre%204%20Arduinos.jpeg)
+<img src="Diagrama/Diagrama%20Comunicación%20I2C%20entre%204%20Arduinos.jpeg" alt="Diagrama del circuito" width="100%">
 
 ## Montaje físico
 
-![Armado](Diagrama/Armado.jpg)
+<img src="Diagrama/Armado.jpg" alt="Montaje físico del circuito" width="100%">
 
 ## Código
 
-* [Maestro.ino](Codigo/Maestro.ino)
-* [Esclavo1(LED).ino](Codigo/Esclavo1(LED).ino)
-* [Esclavo2(servo).ino](Codigo/Esclavo2(servo).ino)
-* [Esclavo3(potenciómetro).ino](Codigo/Esclavo3(potenci%C3%B3metro).ino)
+* [Maestro.ino](<Codigo/Maestro.ino>)
+* [Esclavo1(LED).ino](<Codigo/Esclavo1(LED).ino>)
+* [Esclavo2(servo).ino](<Codigo/Esclavo2(servo).ino>)
+* [Esclavo3(potenciómetro).ino](<Codigo/Esclavo3(potenciómetro).ino>)
 
 ## Reporte
 
-* [Reporte.pdf](Reporte/Reporte.pdf)
+* 📄 [Descargar Reporte (PDF)](<Reporte/Reporte.pdf>)
 
 ## Video del funcionamiento
 
-* [Enlace al Video](Video/Video.txt)
+[![Ver Video de Funcionamiento](https://img.youtube.com/vi/xtoZlY5BY0I/hqdefault.jpg)](https://youtu.be/xtoZlY5BY0I)
+
+👉 [**Haz clic aquí para ver el video del funcionamiento en YouTube**](https://youtu.be/xtoZlY5BY0I)
 
 ## Resultados
 
