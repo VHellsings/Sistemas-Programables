@@ -23,11 +23,11 @@ Comprender el funcionamiento del bus I2C mediante la comunicación entre un maes
 
 ## Diagrama del circuito
 
-<img src="Diagrama/Protocolo%20l2c.png" alt="Diagrama del circuito" width="100%">
+<img src="Diagrama/Protocolo%20I2C.png" alt="Diagrama del circuito" width="100%">
 
 ## Montaje físico
 
-<img src="Diagrama/Armado.jpg" alt="Montaje físico" width="100%">
+<img src="Diagrama/Armado.jpeg" alt="Montaje físico" width="100%">
 
 ## Código
 
@@ -46,7 +46,8 @@ Durante las pruebas, los tres esclavos respondieron correctamente a sus respecti
 
 ## Video del funcionamiento
 
-[Ver video](https://youtu.be/xtoZlY5BY0I)
+* [Ver video en YouTube](https://youtu.be/xtoZlY5BY0I)
+* [Archivo de Video local](<Video/Video Protocolo.md>)
 
 ## Conclusiones
 
