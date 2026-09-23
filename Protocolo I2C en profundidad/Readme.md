@@ -23,22 +23,22 @@ Comprender el funcionamiento del bus I2C mediante la comunicación entre un maes
 
 ## Diagrama del circuito
 
-![Diagrama](Diagrama/Protocolo%20l2c.png)
+<img src="Diagrama/Protocolo%20l2c.png" alt="Diagrama del circuito" width="100%">
 
 ## Montaje físico
 
-![Armado](Diagrama/Armado.jpeg)
+<img src="Diagrama/Armado.jpg" alt="Montaje físico" width="100%">
 
 ## Código
 
-* [Maestro.ino](https://github.com/l231000052-ops/Sistemas-programables/blob/main/Comunicaci%C3%B3n%20I2C%20entre%204%20Arduinos/Codigo/Maestro.ino)
-* [Esclavo1_LED.ino](https://github.com/l231000052-ops/Sistemas-programables/blob/main/Comunicaci%C3%B3n%20I2C%20entre%204%20Arduinos/Codigo/Esclavo1(LED).ino)
-* [Esclavo2_Servo.ino](https://github.com/l231000052-ops/Sistemas-programables/blob/main/Comunicaci%C3%B3n%20I2C%20entre%204%20Arduinos/Codigo/Esclavo2(servo).ino)
-* [Esclavo3_Potenciometro.ino](https://github.com/l231000052-ops/Sistemas-programables/blob/main/Comunicaci%C3%B3n%20I2C%20entre%204%20Arduinos/Codigo/Esclavo3(potenciómetro).ino)
+* [Maestro.ino](<Codigo/Maestro.ino>)
+* [Esclavo1(LED).ino](<Codigo/Esclavo1(LED).ino>)
+* [Esclavo2(servo).ino](<Codigo/Esclavo2(servo).ino>)
+* [Esclavo3(potenciómetro).ino](<Codigo/Esclavo3(potenciómetro).ino>)
 
 ## Reporte
 
-[Reporte.pdf](https://github.com/l231000052-ops/Sistemas-programables/blob/main/Comunicaci%C3%B3n%20I2C%20entre%204%20Arduinos/Reporte/Reporte.pdf)
+* [Reporte.pdf](<Reporte/Reporte.pdf>)
 
 ## Resultados
 
