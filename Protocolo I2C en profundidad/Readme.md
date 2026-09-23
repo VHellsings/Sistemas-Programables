@@ -32,7 +32,7 @@ Comprender el funcionamiento del bus I2C mediante la comunicación entre un maes
 
 ## Diagrama del circuito
 
-<img src="Diagrama/Diagrama%20Comunicación%20I2C%20entre%204%20Arduinos.jpeg" alt="Diagrama del circuito" width="100%">
+<img src="Diagrama/Protocolo l2C%20Comunicación%20I2C%20entre%204%20Arduinos.jpeg" alt="Diagrama del circuito" width="100%">
 
 ## Montaje físico
 
